@@ -1,0 +1,11 @@
+{
+  "name": "FateServer",
+  "version": "0.0.1",
+  "description": "FateBoard API",
+  "author": "LudoBermejo@gmail.com",
+  "dependencies": {
+    "mongoose": "^4.0.7",
+    "restify": "^3.0.3",
+    "validator": "^3.41.2"
+  }
+}
