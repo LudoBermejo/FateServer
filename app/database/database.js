@@ -15,10 +15,12 @@ module.exports = function(config) {
 
   var Cards = require("./models/cards")(mongoose);
   var Positions = require("./models/positions")(mongoose);
+  var Boards = require("./models/boards")(mongoose);
   
   var db = {
     Cards: Cards,
-    Position: Positions
+    Positions: Positions,
+    Boards: Boards
   }
   
   
