@@ -29,6 +29,7 @@ module.exports = function(config,db) {
 
     var cardModel = require("./models/CardModel")(server,db);
     var positionModel = require("./models/PositionModel")(server,db);
+    var boardModel = require("./models/BoardModel")(server,db);
     
     var module = {};
     module.export = server;
